@@ -1,18 +1,27 @@
 # Washi Turn
 
-> Washi Turn is a match-3 puzzle game for iPhone played with two-sided origami paper sheets. Every sheet shows its face and one folded-up corner revealing its underside; swapping two sheets turns both over, so lines are made with the colour under the fold. Coming soon to the App Store; not yet available.
+> Washi Turn is a match-3 puzzle game for iPhone played with two-sided origami paper sheets. Every sheet shows its face and one folded-up corner revealing its underside; swapping two sheets turns both over, so lines are made with the colour under the fold. Coming soon to the App Store; not yet available, so there is no store link yet.
 
-- Controls: drag a sheet onto a neighbour, or tap one then the other. A swap that makes no line slides back and costs no turn. Meet the level's goals before the turns run out.
-- Special sheets: Fan (exactly four in a line; turns over its row and column), Pinwheel (L or T; clears the 3×3 around it), Crane (five in a line; swap with any sheet to clear every sheet of its new face). Obstacles: crumpled paper balls and washi tape.
-- 80 levels across four desks: Kraft, Washi, Vellum, Gilt. Each of the six colours has its own washi print for colour-blind players.
-- Tools: Scissors (cut one cell), Bone Folder (turn one sheet over where it lies), Paperweight (next swap keeps both faces up). Clips are earned from first clears and stars. Optional purchases: Jar of Clips, Paper Sets (three extra looks, same rules), Clip Magnet (doubles level Clips). Restore purchases is in Settings and in the shop.
-- No ads, no lives, no timers, no account, no analytics or tracking. Progress stays on the device and the game plays offline; only purchases talk to the App Store. English only.
+- Status: pre-launch. iPhone only, English only. Free to play; all 80 levels are free.
+- Controls: drag a sheet onto a neighbour, or tap one then the other. A swap that makes no line slides back and costs no turn. Meet the level's goals (collect a colour, clear crumpled paper, peel off tape) before the turns run out. Earn up to three stars per level.
+- Special sheets: Fan (exactly four in a line; turns over the other sheets in its row and column), Pinwheel (L or T; clears the 3×3 around it), Crane (five in a line; swap with any sheet to clear every sheet of its new face). Obstacles: crumpled paper balls and washi tape.
+- 80 levels across four desks: Kraft (teaches the turn), Washi (crumpled paper), Vellum (washi tape and cut-out corners), Gilt (all together). Each of the six colours (vermilion, saffron, matcha, indigo, plum, ash) has its own washi print for colour-blind players.
+- Tools: Scissors (cut one cell), Bone Folder (turn one sheet over where it lies), Paperweight (next swap keeps both faces up). Clips are earned from first clears and stars and spent on tools or five extra turns.
+- Optional purchases: Jar of Clips ($1.99, 600 Clips), Paper Sets ($2.99, three extra looks: Marbled, Indigo Dye, Gold Leaf; same rules), Clip Magnet ($3.99, doubles the Clips earned from levels). Restore purchases is in Settings and in the shop.
+- No ads, no lives, no timers, no account, no analytics or tracking. Progress stays on the device and the game plays offline; only purchases talk to the App Store.
+- Contact: lamnv260398@gmail.com. In the game, Settings opens the Support page and the Privacy Policy.
 
 ## Pages
 
 - [Home](https://nguyenvanlamm.github.io/washi-turn-site/): what the game is, how it plays, and questions about cost, data and devices
 - [Support](https://nguyenvanlamm.github.io/washi-turn-site/support.html): contact, how to play, purchases and restoring, progress
 - [Privacy Policy](https://nguyenvanlamm.github.io/washi-turn-site/privacy.html): what the game stores on the device and what it never collects
+
+## Markdown copies
+
+- [Home (Markdown)](https://nguyenvanlamm.github.io/washi-turn-site/index.html.md): the home page as plain Markdown
+- [Support (Markdown)](https://nguyenvanlamm.github.io/washi-turn-site/support.html.md): the support page as plain Markdown
+- [Privacy Policy (Markdown)](https://nguyenvanlamm.github.io/washi-turn-site/privacy.html.md): the privacy policy as plain Markdown
 
 ## Optional
 
