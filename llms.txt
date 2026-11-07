@@ -9,7 +9,7 @@
 - Tools: Scissors (cut one cell), Bone Folder (turn one sheet over where it lies), Paperweight (next swap keeps both faces up). Clips are earned from first clears and stars and spent on tools or five extra turns.
 - Optional purchases: Jar of Clips ($1.99, 600 Clips), Paper Sets ($2.99, three extra looks: Marbled, Indigo Dye, Gold Leaf; same rules), Clip Magnet ($3.99, doubles the Clips earned from levels). Restore purchases is in Settings and in the shop.
 - No ads, no lives, no timers, no account, no analytics or tracking. Progress stays on the device and the game plays offline; only purchases talk to the App Store.
-- Contact: lamnv260398@gmail.com. In the game, Settings opens the Support page and the Privacy Policy.
+- Contact: lamnv260398@gmail.com. In the game, Settings → Support and Settings → Privacy policy show the contact and the policy, with links to these pages.
 
 ## Pages
 
