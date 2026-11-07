@@ -4,28 +4,74 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Washi Turn: a match-3 puzzle with two-sided paper</title>
-<meta name="description" content="Washi Turn is an iPhone match-3 puzzle played with two-sided origami paper: every swap turns both sheets over, so you match by the colour under the fold. 80 levels, no ads, no lives, no timers.">
+<meta name="description" content="Washi Turn is a match-3 puzzle for iPhone with two-sided origami paper: every swap turns both sheets over. 80 levels, no ads, no lives, no timers.">
 <link rel="canonical" href="https://nguyenvanlamm.github.io/washi-turn-site/">
-<link rel="icon" href="favicon.png">
-<meta property="og:title" content="Washi Turn">
-<meta property="og:description" content="Swap two sheets. Both turn over. A match-3 puzzle played with two-sided origami paper.">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta name="theme-color" content="#2F5D5A">
+<link rel="alternate" type="text/markdown" href="index.html.md" title="This page as Markdown">
+<link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
+<meta property="og:site_name" content="Washi Turn">
+<meta property="og:title" content="Washi Turn: swap two sheets, both turn over">
+<meta property="og:description" content="A match-3 puzzle for iPhone played with two-sided origami paper. 80 levels, no ads, no lives, no timers. Coming soon to the App Store.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://nguyenvanlamm.github.io/washi-turn-site/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://nguyenvanlamm.github.io/washi-turn-site/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Washi Turn: a board of two-sided origami paper sheets, each with a folded corner showing its other colour.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Washi Turn: swap two sheets, both turn over">
+<meta name="twitter:description" content="A match-3 puzzle for iPhone played with two-sided origami paper. 80 levels, no ads, no lives, no timers.">
+<meta name="twitter:image" content="https://nguyenvanlamm.github.io/washi-turn-site/og-image.png">
+<meta name="twitter:image:alt" content="Washi Turn: a board of two-sided origami paper sheets, each with a folded corner showing its other colour.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Shippori+Mincho+B1:wght@700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "VideoGame",
-  "name": "Washi Turn",
-  "description": "A match-3 puzzle for iPhone played with two-sided origami paper sheets: every swap turns both sheets over.",
-  "gamePlatform": "iOS",
-  "applicationCategory": "Game",
-  "genre": "Puzzle",
-  "numberOfPlayers": "1",
-  "inLanguage": "en",
-  "url": "https://nguyenvanlamm.github.io/washi-turn-site/"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://nguyenvanlamm.github.io/washi-turn-site/#website",
+      "name": "Washi Turn",
+      "url": "https://nguyenvanlamm.github.io/washi-turn-site/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://nguyenvanlamm.github.io/washi-turn-site/#game",
+      "name": "Washi Turn",
+      "alternateName": "Washi Turn: Paper Match",
+      "description": "A match-3 puzzle for iPhone played with two-sided origami paper sheets: every sheet shows its face and one folded-up corner, and every swap turns both sheets over. 80 levels across four desks (Kraft, Washi, Vellum, Gilt). No ads, no lives, no timers, no account, no tracking; plays offline.",
+      "url": "https://nguyenvanlamm.github.io/washi-turn-site/",
+      "image": "https://nguyenvanlamm.github.io/washi-turn-site/og-image.png",
+      "gamePlatform": "iPhone",
+      "operatingSystem": "iOS",
+      "applicationCategory": "GameApplication",
+      "applicationSubCategory": "Puzzle",
+      "genre": ["Puzzle", "Match-3"],
+      "playMode": "SinglePlayer",
+      "numberOfPlayers": {"@type": "QuantitativeValue", "value": 1},
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "accessibilityFeature": ["Each of the six paper colours has its own washi pattern for colour-blind players"],
+      "keywords": "match-3, puzzle, origami, washi, two-sided paper, colour-blind friendly, offline, no ads",
+      "isPartOf": {"@id": "https://nguyenvanlamm.github.io/washi-turn-site/#website"}
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nguyenvanlamm.github.io/washi-turn-site/#faq",
+      "mainEntity": [
+        {"@type": "Question", "name": "Is Washi Turn free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You earn Clips from first clears and stars, and spend them on tools or extra turns. Three purchases are optional: Jar of Clips ($1.99), Paper Sets ($2.99, three extra looks with the same rules) and Clip Magnet ($3.99, doubles the Clips you earn from levels)."}},
+        {"@type": "Question", "name": "Are there ads, lives or timers?", "acceptedAnswer": {"@type": "Answer", "text": "No. Play as long as you like."}},
+        {"@type": "Question", "name": "Does Washi Turn collect any data?", "acceptedAnswer": {"@type": "Answer", "text": "No sign-in, no analytics, no tracking. Progress is stored on your device only."}},
+        {"@type": "Question", "name": "Which devices does Washi Turn run on?", "acceptedAnswer": {"@type": "Answer", "text": "iPhone, in English. It is coming soon to the App Store."}}
+      ]
+    }
+  ]
 }
 </script>
 <style>
@@ -38,6 +84,7 @@
   body { margin: 0; background: var(--walnut); color: var(--ink); font: 17px/1.6 "Hanken Grotesk", system-ui, sans-serif; }
   a { color: inherit; }
   .serif { font-family: "Shippori Mincho B1", Georgia, serif; }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
   header.hero {
     background-color: var(--mat);
     background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
@@ -59,6 +106,10 @@
   .tag:focus-visible, .ghost:focus-visible { outline: 3px solid var(--saffron); outline-offset: 3px; }
   .ghost { color: var(--cream); font-weight: 600; text-underline-offset: 4px; }
   .soon { font-size: 14px; opacity: .85; margin: 14px 0 0; }
+  .note { font-size: 14px; opacity: .85; margin: 6px 0 0; }
+  .note a { text-underline-offset: 3px; overflow-wrap: anywhere; }
+  .note a:focus-visible, footer a:focus-visible { outline: 3px solid var(--saffron); outline-offset: 2px; }
+  .final .note { margin: 14px auto 0; }
   .sheets { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 300px; justify-self: center; }
   .sheets svg { width: 100%; height: auto; filter: drop-shadow(0 3px 4px rgba(0,0,0,.35)); }
   main { background: var(--page); }
@@ -73,8 +124,14 @@
   .specials { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 8px; }
   .specials b { display: block; font-family: "Shippori Mincho B1", Georgia, serif; font-size: 19px; }
   .specials span { color: var(--ink2); font-size: 15px; }
-  .desks { list-style: none; padding: 0; margin: 16px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
-  .desks li { background: var(--paper); border: 1px solid #E2D7C4; border-radius: 4px; padding: 6px 14px; font-weight: 600; }
+  .how-grid { display: grid; grid-template-columns: 1fr 300px; gap: 24px 40px; align-items: start; }
+  .how-grid .features { grid-column: 1; grid-row: 1; }
+  .shot { grid-column: 2; grid-row: 1; margin: 0; }
+  .shot img { display: block; width: 100%; height: auto; border-radius: 6px; box-shadow: 0 6px 16px rgba(42, 29, 20, .28); }
+  .shot figcaption { font-size: 15px; color: var(--ink2); margin-top: 10px; }
+  .desks { list-style: none; padding: 0; margin: 16px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+  .desks li { background: var(--paper); border: 1px solid #E2D7C4; border-radius: 4px; padding: 10px 14px; color: var(--ink2); font-size: 15px; line-height: 1.45; }
+  .desks b { display: block; color: var(--ink); font-family: "Shippori Mincho B1", Georgia, serif; font-size: 19px; }
   details { border-bottom: 1px solid #E2D7C4; padding: 14px 0; }
   summary { cursor: pointer; font-weight: 700; font-size: 18px; }
   details p { margin: 8px 0 0; color: var(--ink2); }
@@ -82,10 +139,13 @@
   .final p { max-width: 32em; margin: 0 auto 24px; }
   footer { background: var(--walnut2); color: var(--cream); padding: 28px 16px; font-size: 15px; }
   footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
-  footer nav a { margin-right: 18px; }
+  footer nav a { display: inline-block; padding: 10px 0; margin-right: 18px; }
+  footer span { padding: 10px 0; }
   @media (max-width: 760px) {
-    .hero .wrap, .pas, .features, .specials { grid-template-columns: 1fr; }
+    .hero .wrap, .pas, .features, .specials, .how-grid { grid-template-columns: 1fr; }
     .sheets { max-width: 220px; }
+    .how-grid .features, .shot { grid-column: auto; grid-row: auto; }
+    .shot { max-width: 300px; justify-self: center; }
   }
 </style>
 </head>
@@ -100,7 +160,8 @@
         <a class="tag" href="mailto:lamnv260398@gmail.com?subject=Tell%20me%20when%20Washi%20Turn%20launches">Tell Me When It Launches</a>
         <a class="ghost" href="#how">Read How It Plays</a>
       </div>
-      <p class="soon">Coming soon to the App Store.</p>
+      <p class="soon">Coming soon to the App Store · 80 levels · no ads, no lives, no timers</p>
+      <p class="note">The button opens your email app. Or write to <a href="mailto:lamnv260398@gmail.com?subject=Tell%20me%20when%20Washi%20Turn%20launches">lamnv260398@gmail.com</a>.</p>
     </div>
     <div class="sheets" aria-hidden="true">
       <svg viewBox="0 0 46 46"><path d="M0 0H46V32L32 46H0Z" fill="#C4492F"/><path d="M46 32L32 46V32Z" fill="#D9A23B"/></svg>
@@ -114,9 +175,10 @@
 </header>
 
 <main>
-  <section>
+  <section aria-labelledby="why">
+    <h2 id="why" class="sr-only">Why Washi Turn</h2>
     <div class="wrap pas">
-      <div><h3>The same swap, again and again</h3><p>Match-3 boards tend to blur together: swap, match, repeat, and the only thing that changes from level to level is how long it takes.</p></div>
+      <div><h3>The same swap, again and again</h3><p>Match-3 boards blur together: swap, match, repeat, and the only thing that changes from level to level is how long it takes.</p></div>
       <div><h3>Then the waiting starts</h3><p>Timers, lives that refill in half an hour, ads between levels. You end up waiting more than you play.</p></div>
       <div><h3>Here, every swap turns the paper</h3><p>In Washi Turn both sheets turn over when you swap them, so you read the board by what lies under each fold. No ads, no lives, no timers.</p></div>
     </div>
@@ -125,11 +187,20 @@
   <section id="how">
     <div class="wrap">
       <h2>How it plays</h2>
+      <div class="how-grid">
+      <figure class="shot">
+        <picture>
+          <source srcset="board-kraft-1.webp" type="image/webp">
+          <img src="board-kraft-1.jpg" width="720" height="920" loading="lazy" decoding="async" alt="The first level, Kraft No. 1: a board of two-sided paper sheets on the teal cutting mat, each sheet with a folded corner showing its other colour. Two neighbouring sheets are outlined as the first swap, under the line 'Swapped sheets turn over. The folded corner is the colour you get.'">
+        </picture>
+        <figcaption>Kraft · No. 1. Swap the two outlined sheets: both turn over, and the corners make the line.</figcaption>
+      </figure>
       <div class="features">
         <div><h3>The fold decides</h3><p>Every sheet shows its face and one folded-up corner. Swap two neighbours and both turn over: line up three by the colour under the corner, not the colour on top.</p></div>
         <div><h3>Readable for everyone</h3><p>Vermilion, saffron, matcha, indigo, plum and ash each carry their own washi print, so colour-blind players can tell every sheet apart.</p></div>
         <div><h3>Obstacles and tools</h3><p>Crumpled paper balls and washi tape block the way. Scissors cut one cell, the Bone Folder turns one sheet over where it lies, and the Paperweight keeps your next swap face up.</p></div>
         <div><h3>Yours, offline</h3><p>No account and no tracking. Progress stays on your iPhone and the game plays offline.</p></div>
+      </div>
       </div>
       <h2 style="margin-top:40px">Paper that does things</h2>
       <div class="specials">
@@ -138,7 +209,12 @@
         <div class="card"><b>Crane</b><span>Line up five. Swap it with any sheet to clear every sheet of its new face.</span></div>
       </div>
       <h2 style="margin-top:40px">80 levels, four desks</h2>
-      <ul class="desks"><li>Kraft</li><li>Washi</li><li>Vellum</li><li>Gilt</li></ul>
+      <ul class="desks">
+        <li><b>Kraft</b>teaches the turn</li>
+        <li><b>Washi</b>brings crumpled paper</li>
+        <li><b>Vellum</b>adds washi tape and cut-out corners</li>
+        <li><b>Gilt</b>puts it all together</li>
+      </ul>
     </div>
   </section>
 
@@ -155,8 +231,9 @@
   <section class="final">
     <div class="wrap">
       <h2>Turn the first sheet</h2>
-      <p>Washi Turn is coming soon to the App Store. Leave your email and you will hear once, on launch day.</p>
+      <p>Washi Turn is coming soon to the App Store. Send the one-line email and you will hear back once, on launch day.</p>
       <a class="tag" href="mailto:lamnv260398@gmail.com?subject=Tell%20me%20when%20Washi%20Turn%20launches">Tell Me When It Launches</a>
+      <p class="note">Opens your email app, addressed to lamnv260398@gmail.com.</p>
     </div>
   </section>
 </main>
