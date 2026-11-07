@@ -1,0 +1,19 @@
+# Washi Turn
+
+> Washi Turn is a match-3 puzzle game for iPhone played with two-sided origami paper sheets. Every sheet shows its face and one folded-up corner revealing its underside; swapping two sheets turns both over, so lines are made with the colour under the fold. Coming soon to the App Store; not yet available.
+
+- Controls: drag a sheet onto a neighbour, or tap one then the other. A swap that makes no line slides back and costs no turn. Meet the level's goals before the turns run out.
+- Special sheets: Fan (exactly four in a line; turns over its row and column), Pinwheel (L or T; clears the 3×3 around it), Crane (five in a line; swap with any sheet to clear every sheet of its new face). Obstacles: crumpled paper balls and washi tape.
+- 80 levels across four desks: Kraft, Washi, Vellum, Gilt. Each of the six colours has its own washi print for colour-blind players.
+- Tools: Scissors (cut one cell), Bone Folder (turn one sheet over where it lies), Paperweight (next swap keeps both faces up). Clips are earned from first clears and stars. Optional purchases: Jar of Clips, Paper Sets (three extra looks, same rules), Clip Magnet (doubles level Clips). Restore purchases is in Settings and in the shop.
+- No ads, no lives, no timers, no account, no analytics or tracking. Progress stays on the device and the game plays offline; only purchases talk to the App Store. English only.
+
+## Pages
+
+- [Home](https://nguyenvanlamm.github.io/washi-turn-site/): what the game is, how it plays, and questions about cost, data and devices
+- [Support](https://nguyenvanlamm.github.io/washi-turn-site/support.html): contact, how to play, purchases and restoring, progress
+- [Privacy Policy](https://nguyenvanlamm.github.io/washi-turn-site/privacy.html): what the game stores on the device and what it never collects
+
+## Optional
+
+- [Sitemap](https://nguyenvanlamm.github.io/washi-turn-site/sitemap.xml): the three pages of this site
