@@ -6,7 +6,7 @@ A match-3 puzzle played with two-sided origami paper.
 
 ## Contact
 
-Write to lamnv260398@gmail.com (subject: "Washi Turn"). Please say which device you play on and, if it is about a level, its desk and number (for example "Washi · No. 12"). In the game, Settings opens this Support page and the Privacy Policy.
+Write to lamnv260398@gmail.com (subject: "Washi Turn"). Please say which device you play on and, if it is about a level, its desk and number (for example "Washi · No. 12"). In the game, Settings → Support shows this address, and Settings → Privacy policy shows the policy.
 
 ## How to play
 
